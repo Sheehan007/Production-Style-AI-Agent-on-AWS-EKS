@@ -1,7 +1,9 @@
 # Production-Style-AI-Agent-on-AWS-EKS
 
 
-The stack: 
+**The stack:**
+
+The agent runs inside a Kubernetes-managed container and accesses an external LLM instead of requiring a GPU host for inference.
 
                  -------------------------------------------------
                  |                  User / Client                |
@@ -27,3 +29,10 @@ The stack:
                  |             LLM API + Data Services           |
                  |          Model, database, retrieval, tools    |
                  -------------------------------------------------
+
+
+
+
+
+
+
